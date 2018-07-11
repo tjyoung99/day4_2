@@ -31,3 +31,5 @@ def mouseClicked():
         stroke(255,255,0)
     elif mouseX<300 and mouseY>450: 
         stroke(random(255),random(255),random(255))
+    elif mouseX<350 and mouseY>450: 
+        rect(mouseX,mouseY,100,100)

@@ -18,6 +18,7 @@ def draw():
         line(pmouseX,pmouseY, mouseX,mouseY)
     fill(random(255),random(255),random(255))
     rect(250,450,50,50)
+    
 def mouseClicked():
     if mouseX<50 and mouseY>450 : #red
         stroke(255,0,0)
